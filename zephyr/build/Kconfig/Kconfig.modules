@@ -1,0 +1,186 @@
+menu "canopennode (/home/neuberfran/diegosueiro/rpmsg-lite-zephyr-support/zephyr/samples/subsys/ipc/rpmsg_lite/modules/lib/canopennode)"
+osource "$(ZEPHYR_CANOPENNODE_KCONFIG)"
+config ZEPHYR_CANOPENNODE_MODULE
+	bool
+	default y
+endmenu
+menu "chre (/home/neuberfran/diegosueiro/rpmsg-lite-zephyr-support/zephyr/samples/subsys/ipc/rpmsg_lite/modules/lib/chre)"
+osource "/home/neuberfran/diegosueiro/rpmsg-lite-zephyr-support/zephyr/samples/subsys/ipc/rpmsg_lite/modules/lib/chre/platform/zephyr/Kconfig"
+config ZEPHYR_CHRE_MODULE
+	bool
+	default y
+endmenu
+menu "fatfs (/home/neuberfran/diegosueiro/rpmsg-lite-zephyr-support/zephyr/samples/subsys/ipc/rpmsg_lite/modules/fs/fatfs)"
+osource "$(ZEPHYR_FATFS_KCONFIG)"
+config ZEPHYR_FATFS_MODULE
+	bool
+	default y
+endmenu
+menu "hal_espressif (/home/neuberfran/diegosueiro/rpmsg-lite-zephyr-support/zephyr/samples/subsys/ipc/rpmsg_lite/modules/hal/espressif)"
+osource "/home/neuberfran/diegosueiro/rpmsg-lite-zephyr-support/zephyr/samples/subsys/ipc/rpmsg_lite/modules/hal/espressif/zephyr/Kconfig"
+config ZEPHYR_HAL_ESPRESSIF_MODULE
+	bool
+	default y
+endmenu
+menu "hal_ethos_u (/home/neuberfran/diegosueiro/rpmsg-lite-zephyr-support/zephyr/samples/subsys/ipc/rpmsg_lite/modules/hal/ethos_u)"
+osource "$(ZEPHYR_HAL_ETHOS_U_KCONFIG)"
+config ZEPHYR_HAL_ETHOS_U_MODULE
+	bool
+	default y
+endmenu
+menu "hal_gigadevice (/home/neuberfran/diegosueiro/rpmsg-lite-zephyr-support/zephyr/samples/subsys/ipc/rpmsg_lite/modules/hal/gigadevice)"
+osource "$(ZEPHYR_HAL_GIGADEVICE_KCONFIG)"
+config ZEPHYR_HAL_GIGADEVICE_MODULE
+	bool
+	default y
+endmenu
+menu "hal_infineon (/home/neuberfran/diegosueiro/rpmsg-lite-zephyr-support/zephyr/samples/subsys/ipc/rpmsg_lite/modules/hal/infineon)"
+osource "$(ZEPHYR_HAL_INFINEON_KCONFIG)"
+config ZEPHYR_HAL_INFINEON_MODULE
+	bool
+	default y
+endmenu
+menu "hal_nordic (/home/neuberfran/diegosueiro/rpmsg-lite-zephyr-support/zephyr/samples/subsys/ipc/rpmsg_lite/modules/hal/nordic)"
+osource "$(ZEPHYR_HAL_NORDIC_KCONFIG)"
+config ZEPHYR_HAL_NORDIC_MODULE
+	bool
+	default y
+endmenu
+menu "hal_nxp (/home/neuberfran/diegosueiro/rpmsg-lite-zephyr-support/zephyr/samples/subsys/ipc/rpmsg_lite/modules/hal/nxp)"
+osource "$(ZEPHYR_HAL_NXP_KCONFIG)"
+config ZEPHYR_HAL_NXP_MODULE
+	bool
+	default y
+endmenu
+menu "hal_rpi_pico (/home/neuberfran/diegosueiro/rpmsg-lite-zephyr-support/zephyr/samples/subsys/ipc/rpmsg_lite/modules/hal/rpi_pico)"
+osource "$(ZEPHYR_HAL_RPI_PICO_KCONFIG)"
+config ZEPHYR_HAL_RPI_PICO_MODULE
+	bool
+	default y
+endmenu
+menu "silabs (/home/neuberfran/diegosueiro/rpmsg-lite-zephyr-support/zephyr/samples/subsys/ipc/rpmsg_lite/modules/hal/silabs)"
+osource "/home/neuberfran/diegosueiro/rpmsg-lite-zephyr-support/zephyr/samples/subsys/ipc/rpmsg_lite/modules/hal/silabs/zephyr/Kconfig"
+config ZEPHYR_SILABS_MODULE
+	bool
+	default y
+endmenu
+menu "hal_telink (/home/neuberfran/diegosueiro/rpmsg-lite-zephyr-support/zephyr/samples/subsys/ipc/rpmsg_lite/modules/hal/telink)"
+osource "/home/neuberfran/diegosueiro/rpmsg-lite-zephyr-support/zephyr/samples/subsys/ipc/rpmsg_lite/modules/hal/telink/Kconfig"
+config ZEPHYR_HAL_TELINK_MODULE
+	bool
+	default y
+endmenu
+menu "liblc3 (/home/neuberfran/diegosueiro/rpmsg-lite-zephyr-support/zephyr/samples/subsys/ipc/rpmsg_lite/modules/lib/liblc3)"
+osource "$(ZEPHYR_LIBLC3_KCONFIG)"
+config ZEPHYR_LIBLC3_MODULE
+	bool
+	default y
+endmenu
+menu "littlefs (/home/neuberfran/diegosueiro/rpmsg-lite-zephyr-support/zephyr/samples/subsys/ipc/rpmsg_lite/modules/fs/littlefs)"
+osource "$(ZEPHYR_LITTLEFS_KCONFIG)"
+config ZEPHYR_LITTLEFS_MODULE
+	bool
+	default y
+endmenu
+menu "loramac-node (/home/neuberfran/diegosueiro/rpmsg-lite-zephyr-support/zephyr/samples/subsys/ipc/rpmsg_lite/modules/lib/loramac-node)"
+osource "$(ZEPHYR_LORAMAC_NODE_KCONFIG)"
+config ZEPHYR_LORAMAC_NODE_MODULE
+	bool
+	default y
+endmenu
+menu "lvgl (/home/neuberfran/diegosueiro/rpmsg-lite-zephyr-support/zephyr/samples/subsys/ipc/rpmsg_lite/modules/lib/gui/lvgl)"
+osource "/home/neuberfran/diegosueiro/rpmsg-lite-zephyr-support/zephyr/samples/subsys/ipc/rpmsg_lite/modules/lib/gui/lvgl/zephyr/Kconfig"
+config ZEPHYR_LVGL_MODULE
+	bool
+	default y
+endmenu
+menu "lz4 (/home/neuberfran/diegosueiro/rpmsg-lite-zephyr-support/zephyr/samples/subsys/ipc/rpmsg_lite/modules/lib/lz4)"
+osource "$(ZEPHYR_LZ4_KCONFIG)"
+config ZEPHYR_LZ4_MODULE
+	bool
+	default y
+endmenu
+menu "mbedtls (/home/neuberfran/diegosueiro/rpmsg-lite-zephyr-support/zephyr/samples/subsys/ipc/rpmsg_lite/modules/crypto/mbedtls)"
+osource "$(ZEPHYR_MBEDTLS_KCONFIG)"
+config ZEPHYR_MBEDTLS_MODULE
+	bool
+	default y
+endmenu
+menu "nanopb (/home/neuberfran/diegosueiro/rpmsg-lite-zephyr-support/zephyr/samples/subsys/ipc/rpmsg_lite/modules/lib/nanopb)"
+osource "$(ZEPHYR_NANOPB_KCONFIG)"
+config ZEPHYR_NANOPB_MODULE
+	bool
+	default y
+endmenu
+menu "openthread (/home/neuberfran/diegosueiro/rpmsg-lite-zephyr-support/zephyr/samples/subsys/ipc/rpmsg_lite/modules/lib/openthread)"
+osource "$(ZEPHYR_OPENTHREAD_KCONFIG)"
+config ZEPHYR_OPENTHREAD_MODULE
+	bool
+	default y
+endmenu
+menu "picolibc (/home/neuberfran/diegosueiro/rpmsg-lite-zephyr-support/zephyr/samples/subsys/ipc/rpmsg_lite/modules/lib/picolibc)"
+osource "/home/neuberfran/diegosueiro/rpmsg-lite-zephyr-support/zephyr/samples/subsys/ipc/rpmsg_lite/modules/lib/picolibc/zephyr/Kconfig"
+config ZEPHYR_PICOLIBC_MODULE
+	bool
+	default y
+endmenu
+menu "segger (/home/neuberfran/diegosueiro/rpmsg-lite-zephyr-support/zephyr/samples/subsys/ipc/rpmsg_lite/modules/debug/segger)"
+osource "$(ZEPHYR_SEGGER_KCONFIG)"
+config ZEPHYR_SEGGER_MODULE
+	bool
+	default y
+endmenu
+menu "sof (/home/neuberfran/diegosueiro/rpmsg-lite-zephyr-support/zephyr/samples/subsys/ipc/rpmsg_lite/modules/audio/sof)"
+osource "/home/neuberfran/diegosueiro/rpmsg-lite-zephyr-support/zephyr/samples/subsys/ipc/rpmsg_lite/modules/audio/sof/zephyr/Kconfig"
+config ZEPHYR_SOF_MODULE
+	bool
+	default y
+endmenu
+menu "tflite-micro (/home/neuberfran/diegosueiro/rpmsg-lite-zephyr-support/zephyr/samples/subsys/ipc/rpmsg_lite/modules/lib/tflite-micro)"
+osource "$(ZEPHYR_TFLITE_MICRO_KCONFIG)"
+config ZEPHYR_TFLITE_MICRO_MODULE
+	bool
+	default y
+endmenu
+menu "TraceRecorder (/home/neuberfran/diegosueiro/rpmsg-lite-zephyr-support/zephyr/samples/subsys/ipc/rpmsg_lite/modules/debug/TraceRecorder)"
+osource "/home/neuberfran/diegosueiro/rpmsg-lite-zephyr-support/zephyr/samples/subsys/ipc/rpmsg_lite/modules/debug/TraceRecorder/kernelports/Zephyr/Kconfig"
+config ZEPHYR_TRACERECORDER_MODULE
+	bool
+	default y
+endmenu
+menu "trusted-firmware-m (/home/neuberfran/diegosueiro/rpmsg-lite-zephyr-support/zephyr/samples/subsys/ipc/rpmsg_lite/modules/tee/tf-m/trusted-firmware-m)"
+osource "$(ZEPHYR_TRUSTED_FIRMWARE_M_KCONFIG)"
+config ZEPHYR_TRUSTED_FIRMWARE_M_MODULE
+	bool
+	default y
+endmenu
+menu "trusted-firmware-a (/home/neuberfran/diegosueiro/rpmsg-lite-zephyr-support/zephyr/samples/subsys/ipc/rpmsg_lite/modules/tee/tf-a/trusted-firmware-a)"
+osource "$(ZEPHYR_TRUSTED_FIRMWARE_A_KCONFIG)"
+config ZEPHYR_TRUSTED_FIRMWARE_A_MODULE
+	bool
+	default y
+endmenu
+menu "uoscore-uedhoc (/home/neuberfran/diegosueiro/rpmsg-lite-zephyr-support/zephyr/samples/subsys/ipc/rpmsg_lite/modules/lib/uoscore-uedhoc)"
+osource "$(ZEPHYR_UOSCORE_UEDHOC_KCONFIG)"
+config ZEPHYR_UOSCORE_UEDHOC_MODULE
+	bool
+	default y
+endmenu
+menu "zcbor (/home/neuberfran/diegosueiro/rpmsg-lite-zephyr-support/zephyr/samples/subsys/ipc/rpmsg_lite/modules/lib/zcbor)"
+osource "$(ZEPHYR_ZCBOR_KCONFIG)"
+config ZEPHYR_ZCBOR_MODULE
+	bool
+	default y
+endmenu
+menu "zscilib (/home/neuberfran/diegosueiro/rpmsg-lite-zephyr-support/zephyr/samples/subsys/ipc/rpmsg_lite/modules/lib/zscilib)"
+osource "/home/neuberfran/diegosueiro/rpmsg-lite-zephyr-support/zephyr/samples/subsys/ipc/rpmsg_lite/modules/lib/zscilib/Kconfig.zscilib"
+config ZEPHYR_ZSCILIB_MODULE
+	bool
+	default y
+endmenu
+menu "thrift (/home/neuberfran/diegosueiro/rpmsg-lite-zephyr-support/zephyr/samples/subsys/ipc/rpmsg_lite/modules/lib/thrift)"
+osource "$(ZEPHYR_THRIFT_KCONFIG)"
+config ZEPHYR_THRIFT_MODULE
+	bool
+	default y
+endmenu
